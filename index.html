@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+  	<title>New York Mets Quiz</title>
+    <meta name="description" content="A small site built for the CodeFellows application process. Test your Mets knowledge.">
+    <meta name="author" content="Anwar Montasir">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600|Lora:400" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+  </head>
+  <body>
+
+  	<div id="container">
+  	  <div id="content">
+  	  	<header>
+		  <div id="logo-wrap">
+		  	<div id="logo-left">
+		  	  <a href="index.html"><img src="img/mets-logo.png" alt="New York Mets logo" id="logo"></a>
+		  	</div> <!-- #logo-left -->
+		  	<div id="logo-right">
+		  	  <a href="index.html">
+		  	    <h1>New York Mets Quiz.</h1>
+		  	    <p id="tagline">Test your Mets knowledge.</p>
+		  	  </a>
+		  	</div> <!-- #logo-left -->
+		  </div> <!-- #logo-wrap -->
+		</header>
+		<div class="orange-stripe"></div>
+		<article>
+		  <h2 id="welcome">Welcome to the Mets quiz!</h2>
+		  <p id="tag2">Let's get started.</p>
+		  <img src="img/mr-met-banner.jpg" alt="Vintage Mr. Met Illustration" id="banner">
+		  <form id="form">
+		  	<label for="userName" class="question">Your name:</label>
+		  	<input type="text" name="userName" id="userName" required>
+
+		  	<fieldset>
+		      <legend class="question">Are you a Mets fan?</legend>
+		      <label> <input type="radio" name="metsFan" value="Yes" required> Yes.</label>
+			  <label> <input type="radio" name="metsFan" value="No"> No.</label>
+		      <label> <input type="radio" name="metsFan" value="Yankees"> I like the Yankees :(</label>
+		    </fieldset>
+
+		    <input id="button" type="submit" value="Go!" class="btn">
+		  </form>
+		</article>
+
+	  </div> <!-- #content -->
+
+  	  <footer>
+  	  	<p>Mets quiz, ©2017 Anwar Montasir.</p>
+  	  </footer>
+
+  	</div> <!-- # container -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/retina.js/2.1.0/retina.min.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+</html>
